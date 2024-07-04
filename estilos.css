@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+.body {
+    width: 100%;
+    height: auto;
+    background-color: lightgoldenrodyellow;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 175px;
+    background: -moz-linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
+    background: -webkit-linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
+    background: linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#259aa1", GradientType=1);
+    box-shadow: 2px 0px 3px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+
+.ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.section1 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+    background-color: lightgoldenrodyellow;
+
+
+
+}
+
+.divsSection1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 5px solid rgb(206, 219, 19); */
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.imgSection1 {
+
+    width: 130px;
+    height: 130px;
+    margin-bottom: 2px;
+
+}
+
+.logo {
+    width: 250px;
+    height: 200px;
+}
+
+.span {
+    font-family: Roboto Flex;
+}
+
+.footer {
+
+    margin-top: 25px;
+    width: 100%;
+    height: 175px;
+    background: -moz-linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
+    background: -webkit-linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
+    background: linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#259aa1", GradientType=1);
+    box-shadow: 2px 0px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.imgfooter {
+    margin-top: 50px;
+
+    width: 50px;
+    height: 50px;
+    box-shadow: 10px 6px 5px black;
+    border-radius: 10px;
+
+}
+
+.divFooter {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+
+}
