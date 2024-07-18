@@ -12,6 +12,8 @@
     height: auto;
     background-color: lightgoldenrodyellow;
 
+
+
 }
 
 .header {
@@ -38,7 +40,12 @@
     display: flex;
     flex-direction: row;
     gap: 15px;
-    margin-right: 10px;
+    margin-right: 50px;
+    font-family: ROBOTO FLEX;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 1px black;
 }
 
 .section1 {
@@ -73,11 +80,23 @@
     width: 130px;
     height: 130px;
     margin-bottom: 2px;
+    transition: 1s;
+
+
+}
+
+.imgSection1:hover {
+
+    width: 260px;
+    height: 260px;
+    position: relative;
+    border: 5px solid lightgreen;
+    border-radius: 15px;
 
 }
 
 .logo {
-    width: 250px;
+    width: 200px;
     height: 200px;
 }
 
@@ -112,5 +131,157 @@
     flex-direction: row;
     gap: 100px;
     justify-content: center;
+
+}
+
+.input {
+    margin-top: 5px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.boton {
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: 1s;
+
+}
+
+.boton:hover {
+    background-color: lightskyblue;
+}
+
+
+
+
+
+.divSpanDerechos {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.spanDerechos {
+    font-family: ROBOTO FLEX;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 1px black;
+}
+
+
+
+
+
+
+/* 
+.ball{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+}
+
+
+.animacion {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    animation-duration: 3s;
+    animation-name: Animatron;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Animatron {
+    from {
+        margin-right: 50%;
+
+    }
+
+    to {
+        margin-left: 50%;
+        width: 50px;
+        height: 50px;
+    }
+
+} */
+
+
+.wasap {
+    display: flex;
+    justify-content: end;
+    margin-right: 25px;
+    margin-top: 25px;
+
+}
+
+
+.wasap_ {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    animation-name: wisip;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes wisip {
+    from {
+        width: 0px;
+        height: 0px;
+
+
+    }
+
+    to {
+        width: 50px;
+        height: 50px;
+
+    }
+}
+
+
+
+/* Pagina Auriculares */
+
+.bodyAuriculares {
+    width: 100%;
+    height: 300px;
+
+    background-color: lightgoldenrodyellow;
+}
+
+.footerAuriculares {
+
+    margin-top: 350px;
+    width: 100%;
+    height: 175px;
+    background: -moz-linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
+    background: -webkit-linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
+    background: linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#259aa1", GradientType=1);
+    box-shadow: 2px 0px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.divPagAuriculares {
+    display: flex;
+flex-direction: row;
+
+gap: 100px;
+margin-top: 15px;
+justify-content: center;
+
+}
+
+.imgAuriculares{
+    width: 150px;
+    height: 150px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 }

@@ -18,3 +18,17 @@
 //     document.write("No es ninguno de los 2 nombres inocrrectos");
 
 // }
+
+// let button  = document.getElementById("circulo")
+// let defaultColor = button.style.backgroundColor
+// let colors = ["blue", "green", "purple"]
+// let count = 0;
+
+// button.onmouseenter = function (e) {
+//     e.target.style.backgroundColor = colors[count % colors.length];
+//     count++;
+// }
+
+// button.onmouseleave = function (e) {
+//     e.target.style.backgroundColor = defaultColor;
+// }
