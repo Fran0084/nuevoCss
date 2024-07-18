@@ -314,6 +314,8 @@
     height: 50px;
     /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
     font-family: roboto flex;
+    font-size: 12px;
+
 
 
 }
@@ -324,4 +326,5 @@
     /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
     height: 50px;
     font-family: roboto flex;
+    font-size: 12px;
 }
