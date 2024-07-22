@@ -85,7 +85,7 @@
 
 }
 
-.imgSection1:hover {
+/* .imgSection1:hover {
 
     width: 260px;
     height: 260px;
@@ -93,7 +93,7 @@
     border: 5px solid lightgreen;
     border-radius: 15px;
 
-}
+} */
 
 .logo {
     width: 200px;
@@ -146,12 +146,15 @@
 .boton {
     border-radius: 3px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 60px;
+    height: 30px;
     transition: 1s;
+    cursor: pointer;
 
 }
 
 .boton:hover {
-    background-color: lightskyblue;
+    background-color: lightseagreen;
 }
 
 
