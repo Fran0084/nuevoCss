@@ -10,7 +10,6 @@
 .body {
     width: 100%;
     height: auto;
-    /* background-color: black; */
 
 
 
@@ -126,7 +125,10 @@
     }
 
 .footer {
-
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
     margin-top: 25px;
     width: 100%;
     height: 175px;
@@ -134,23 +136,27 @@
     background: -webkit-linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
     background: linear-gradient(143deg, rgba(2, 0, 36, 1) 0%, rgba(37, 154, 161, 0.6894355154171043) 35%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#259aa1", GradientType=1); */
-    box-shadow: 2px 0px 3px 2px rgba(0, 0, 0, 10);
+    /* box-shadow: 2px 0px 3px 2px rgba(0, 0, 0, 10); */
+    box-shadow: 2px 0px 3px 2px rgba(0, 0, 0, 0.5);
+
 }
 
 .imgfooter {
     margin-top: 50px;
 
-    width: 50px;
-    height: 50px;
-    box-shadow: 10px 6px 5px black;
-    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 5px 5px 3px 0.5px lightgray;
+   border-radius: 10px;
+   margin-bottom: 50px;
+    
 
 }
 
 .divFooter {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    gap: 30px;
     justify-content: center;
 
 }
@@ -175,7 +181,7 @@
 }
 
 .boton:hover {
-    background-color: lightseagreen;
+    background-color: lightblue;
 }
 
 
@@ -192,9 +198,15 @@
 .spanDerechos {
     font-family: ROBOTO FLEX;
     font-size: 16px;
-    font-weight: bolder;
-    color: white;
-    text-shadow: 2px 1px black;
+    color: black;
+    text-shadow: 1px 1px lightgray;
+    margin-bottom: px;
+}
+
+.logoFooter{
+    width: 90px;
+    height: 75px;
+
 }
 
 
