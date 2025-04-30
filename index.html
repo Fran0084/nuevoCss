@@ -29,34 +29,51 @@
 <body class="body">
     <header class="header">
 
-        <img src="./imagenesProductos/logo/logo mejorado.png" class="logo">
+        <img src="./imagenesProductos/logo/logo sin fondo.png" class="logo">
 
-        <span>ENVIOS A TODO EL PAIS</span>
+        <span class="envios">ENVIOS A TODO EL PAIS</span>
 
         <nav class="nav">
 
             <ul class="ul">
-                <li>Productos</li>
-                <li>Quienes Somos</li>
-                <li>Contacto</li>
+                <li class="listas">Productos</li>
+                <li class="listas">Quienes Somos</li>
+                <li class="listas">Contacto</li>
+                <li class="listas">Hola</li>
             </ul>
 
 
         </nav>
+        
 
     </header>
+
+    <div class="divModos">
+        <button class="darkMode" id="btn1"></button>
+        <button class="lighMode" id="btn2"></button>
+    </div>
 
     <main>
         <div class="wasap">
             <img src="./imagenesProductos/wasap/logo.png" alt="" class="wasap_">
         </div>
-        <section class="section1">
+        <section class="section1" id="section">
             <div class="divsSection1">
-                <span class="span">Auriculares Bluethoot</span>
-                <img src="./imagenesProductos/auriculares/AuricularesInEar.png" alt="" class="imgSection1">
+                <span class="span">Marcadores Doble punta Touch x 24</span>
+                <img src="./imagenesProductos/Marcadores/Marcador x24-Photoroom.png" alt="" class="imgSection1">
 
 
                 <a href="./paginas/auriculares.html"> <button type="button" class="boton">Ver mas</button class="boton"></a>
+
+                    <!-- <button onclick="cambiarCantidad('camiseta', -1)">-</button>
+              <span id="cantidad-camiseta">0</span>
+              <button onclick="cambiarCantidad('camiseta', 1)">+</button> -->
+
+              <!-- <p><strong>Total de unidades:</strong> <span id="total-unidades">0</span></p>
+              <p><strong>Total a pagar:</strong> $<span id="total-precio">0.00</span></p> -->
+            </div>
+
+
 
             </div>
 
@@ -70,11 +87,11 @@
             </div>
 
             <div class="divsSection1">
-                <span class="span">Auriculares Genius</span>
+                <span class="span">Auriculares Genius2</span>
 
                 <img src="./imagenesProductos/auricularesGenius/nb_auricular-gamer-gx-gaming-genius-hs-g600v-black_ver_52afd7f0190f6fa54628254087c4b937.jpg"
                     alt="" class="imgSection1">
-                <button class="boton">Agregar</button>
+                <button class="boton" id="button">Agregar</button>
 
             </div>
         </section>
@@ -156,6 +173,9 @@
                 <span class="spanDerechos">Derechos Reservados</span>
             </div>
 
+            
+
+
 
 
 
@@ -163,6 +183,7 @@
 
     </main>
     <script src="./main.js"></script>
+    
 </body>
 
 </html>
